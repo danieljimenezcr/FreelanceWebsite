@@ -13,7 +13,7 @@ This is a simple portfolio website project created to practice HTML and CSS skil
 
 ## Introduction
 
-This project is a basic portfolio website created using HTML and CSS. It showcases various projects and skills of the developer.
+This project is a basic portfolio website created using HTML and CSS. 
 
 ## Features
 
