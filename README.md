@@ -24,6 +24,7 @@ This project is a basic portfolio website created using HTML and CSS. It showcas
 ## Getting Started
 
 To get a copy of this project up and running on your local machine, simply clone this repository:
+
 `git clone https://github.com/danieljimenezcr/FreelanceWebsite`
 
 ## Usage
