@@ -77,45 +77,47 @@
                     <path d="M17 17l-2 2l2 2" />
                 </svg>
             </div>
-            
             <p>In blandit nibh sed fringilla malesuada. Suspendisse interdum scelerisque odio vel efficitur.</p>
         </section>
         </div>
-    </main>
-
     <section>
         <h2>Contacto</h2>
-        <form action="">
+        <form class="contact-form">
             <fieldset>
                 <legend>Ingresa la información de contacto</legend>
-                <div>
-                    <label for="">Nombre</label>
-                    <input placeholder="Tu Nombre" type="text">
-                </div>
 
-                <div>
-                    <label for="">Teléfono</label>
-                    <input placeholder="8080-8080" type="tel">
+                <div class="fields-container">
+                    <div class="field">
+                        <label for="">Nombre</label>
+                        <input class="input-text" placeholder="Tu Nombre" type="text">
+                    </div>
+    
+                    <div class="field">
+                        <label for="">Teléfono</label>
+                        <input class="input-text" placeholder="8080-8080" type="tel">
+                    </div>
+    
+                    <div class="field">
+                        <label for="">Correo</label>
+                        <input class="input-text" placeholder="ejemplo@mail.com" type="mail">
+                    </div>
+    
+                    <div class="field">
+                        <label for="">Mensaje</label>
+                        <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="right-align flex">
+                        <input class="btn w-100"  value="Enviar">
+                    </div>
                 </div>
-
-                <div>
-                    <label for="">Correo</label>
-                    <input placeholder="ejemplo@mail.com" type="mail">
-                </div>
-
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
+               
                 
-                <div>
-                    <input class="btn" type="submit" value="Enviar">
-                </div>
+               
             </fieldset>
         </form>
     </section>
-    
-    <footer>
+</main>
+    <footer class="footer">
         <p>Todos los Derechos Reservados | Daniel Jiménez</p> 
     </footer>
 

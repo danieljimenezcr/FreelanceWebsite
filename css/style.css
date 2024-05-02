@@ -3,7 +3,7 @@
     --oscuro: #212121;
     --primario: #38ada9;
     --secundario: #3c6382;
-    --gris: #757575;
+    --gris: #7f8fa6;
 }
 
 html {
@@ -63,6 +63,7 @@ border-radius: 1rem;
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 
 }
 @media (min-width: 768px) { 
@@ -70,6 +71,30 @@ border-radius: 1rem;
         width: auto;
     }
 }  
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.w-100{
+    width: 100%;
+}
+@media (min-width: 768px) { 
+    .w-100{
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.right-align {
+    justify-content: flex-end;
+}
+
+
+
 .nav-bg {
     background-color: var(--secundario);
 }
@@ -156,4 +181,53 @@ border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-form {
+    background-color: var(--gris);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-form fieldset {
+    border: none;
+}
+
+.contact-form legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: var(--oscuro);
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.fields-container {
+
+}
+
+.field {
+    margin-bottom: 1rem;
+}
+
+.field label{
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+.send-btn {
+    width: 100%;
+}
+.footer {
+    text-align: center;
 }
