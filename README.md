@@ -19,7 +19,7 @@ This project is a basic portfolio website created using HTML and CSS.
 
 - Responsive design
 - Simple layout
-- Sections for projects, skills, and contact information
+- Sections for Hero, services, and contact information
 
 ## Getting Started
 
